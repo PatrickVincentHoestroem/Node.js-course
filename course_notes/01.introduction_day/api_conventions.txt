@@ -1,0 +1,14 @@
+http method order
+GET
+POST
+PUT
+PATCH
+DELETE
+
+Endpoints are always plural (movies, games, beers) not (movie, game, beer).
+GET ../movies        (gets all movies)
+GET ../movies/0      (gets the movie with ID 0)
+POST ../movies       (creates a new movie)
+PUT ../ movies/0     (update the whole resources of the movie with ID 0)
+PATH ../movies/0     (update part of the resources of the movie with ID 0)
+DELETE ../movies/0   (Deletes the movie with ID 0)

@@ -1,0 +1,5 @@
+git add .  // stage all changes within this location and its child folders to the git index.
+git add -A  // stage all changed within this repo to the git index.
+git status  // see all staged items within this repo.
+git commit -m "message text bla bla"  // 'commit' the staged changes to the local repository.
+git push  // 'push' the local repository changes to the cloud repository.
